@@ -93,7 +93,7 @@ const TableThree = () => {
         }
         return response.json();
       })
-      .then((data) => {
+      .then((data: any) => {
         Sdfsdfklj();
       })
       .catch((error) => {
